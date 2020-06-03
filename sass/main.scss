@@ -2,10 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
 
 // General Styles
+.colored {
+  background-color: rgba(104, 104, 104, 0.5);
+  transition: 600ms;
+}
+
+section {
+  padding: 4rem 0;
+}
 
 // Navbar
 .navbar {
   opacity: 0;
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
   .nav-item {
     padding: 0 1.3rem;
 
@@ -60,12 +73,6 @@
     td {
       text-align: right;
     }
-  }
-}
-
-// Gallery
-#gallery {
-  carousel-item {
   }
 }
 
