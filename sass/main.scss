@@ -11,6 +11,10 @@ section {
   padding: 4rem 0;
 }
 
+h3 {
+  text-align: center;
+}
+
 // Navbar
 .navbar {
   opacity: 0;
@@ -96,5 +100,13 @@ section {
     hr {
       width: 300px;
     }
+  }
+}
+
+// Contact
+#contact {
+  .contact-column {
+    text-align: center;
+    font-size: 2rem;
   }
 }

@@ -10,6 +10,10 @@ section {
   padding: 4rem 0;
 }
 
+h3 {
+  text-align: center;
+}
+
 .navbar {
   opacity: 0;
 }
@@ -104,5 +108,10 @@ section {
 
 #about ul hr {
   width: 300px;
+}
+
+#contact .contact-column {
+  text-align: center;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
