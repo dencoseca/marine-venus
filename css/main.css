@@ -64,6 +64,14 @@
           align-items: center;
 }
 
+#specs .table {
+  max-width: 800px;
+}
+
+#specs .table td {
+  text-align: right;
+}
+
 #about ul {
   list-style: none;
   text-align: center;
@@ -74,6 +82,10 @@
   padding: 2rem 0;
   font-family: "Lora", serif;
   font-size: 1.5rem;
+}
+
+#about ul li a {
+  text-decoration: none;
 }
 
 #about ul hr {
