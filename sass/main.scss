@@ -6,9 +6,17 @@ body {
   font-family: "Open Sans", serif;
 }
 
-.colored {
-  background-color: rgba(104, 104, 104, 0.5);
-  transition: 600ms;
+.scrolled-navbar {
+  background-color: white;
+  transition: 100ms;
+}
+
+.navbar
+  .navbar-collapse
+  .navbar-nav
+  .nav-item
+  .nav-link.main-link.scrolled-nav-link {
+  color: rgb(57, 124, 187) !important;
 }
 
 section {
@@ -87,11 +95,11 @@ hr {
   .specs-btn {
     background: none;
     border: 1px solid rgb(240, 240, 240);
-    // font-family: "Lora", serf;
-    font-weight: bold;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: rgb(57, 124, 187);
     padding: 0.8rem 1.5rem;
-    border-bottom: 2px solid rgb(0, 51, 126);
-    border-radius: 3px;
     &:focus {
       outline: none;
     }
@@ -168,6 +176,7 @@ hr {
 
       a {
         text-decoration: none;
+        color: rgb(57, 124, 187);
       }
     }
   }

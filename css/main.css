@@ -4,10 +4,18 @@ body {
   font-family: "Open Sans", serif;
 }
 
-.colored {
-  background-color: rgba(104, 104, 104, 0.5);
-  -webkit-transition: 600ms;
-  transition: 600ms;
+.scrolled-navbar {
+  background-color: white;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.navbar
+.navbar-collapse
+.navbar-nav
+.nav-item
+.nav-link.main-link.scrolled-nav-link {
+  color: #397cbb !important;
 }
 
 section {
@@ -97,10 +105,11 @@ hr {
 #specs .specs-btn {
   background: none;
   border: 1px solid #f0f0f0;
-  font-weight: bold;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #397cbb;
   padding: 0.8rem 1.5rem;
-  border-bottom: 2px solid #00337e;
-  border-radius: 3px;
 }
 
 #specs .specs-btn:focus {
@@ -176,6 +185,7 @@ hr {
 
 #about ul li a {
   text-decoration: none;
+  color: #397cbb;
 }
 
 #contact .contact-column {
