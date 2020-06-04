@@ -87,9 +87,8 @@ hr {
   .specs-btn {
     background: none;
     border: 1px solid rgb(240, 240, 240);
-    font-size: 1.25rem;
-    font-family: "Lora", serf;
-    font-style: italic;
+    // font-family: "Lora", serf;
+    font-weight: bold;
     padding: 0.8rem 1.5rem;
     border-bottom: 2px solid rgb(0, 51, 126);
     border-radius: 3px;
@@ -126,12 +125,16 @@ hr {
 
 // Charter
 #charter {
+  p {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
   .container-fluid {
     background: url("../images/charter_background.jpg");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
