@@ -84,16 +84,33 @@ hr {
   flex-direction: column;
   align-items: center;
 
+  .specs-btn {
+    background: none;
+    border: 1px solid rgb(240, 240, 240);
+    font-size: 1.25rem;
+    font-family: "Lora", serf;
+    font-style: italic;
+    padding: 0.8rem 1.5rem;
+    border-bottom: 2px solid rgb(0, 51, 126);
+    border-radius: 3px;
+    &:focus {
+      outline: none;
+    }
+  }
+
   p {
     max-width: 800px;
     padding: 10px 0;
     text-align: center;
   }
-
-  .table {
+  .card {
     max-width: 800px;
-    td {
-      text-align: right;
+    margin: 0 auto;
+
+    .table {
+      td {
+        text-align: right;
+      }
     }
   }
 }
@@ -109,7 +126,29 @@ hr {
 
 // Charter
 #charter {
-  
+  .container-fluid {
+    background: url("../images/charter_background.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    .contact-options {
+      display: flex;
+
+      .contact-option {
+        margin: 0 1.5rem;
+
+        a {
+          color: white;
+        }
+      }
+    }
+  }
 }
 
 // About
