@@ -20,7 +20,7 @@ body {
 }
 
 section {
-  padding: 4rem 0;
+  padding: 5rem 0 0 0;
 }
 
 h3 {
@@ -33,7 +33,7 @@ h3 {
 }
 
 hr {
-  width: 300px;
+  width: 250px;
 }
 
 // Navbar
@@ -92,13 +92,17 @@ hr {
   flex-direction: column;
   align-items: center;
 
+  .specs-btn-p-element {
+    padding: 0 0 1rem 0;
+  }
+
   .specs-btn {
-    background: none;
+    background: rgb(57, 124, 187);
     border: 1px solid rgb(240, 240, 240);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: rgb(57, 124, 187);
+    color: white;
     padding: 0.8rem 1.5rem;
     &:focus {
       outline: none;
@@ -137,27 +141,46 @@ hr {
     text-align: center;
     padding-bottom: 1rem;
   }
+
   .container-fluid {
     background: url("../images/charter_background.jpg");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 500px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
-    .contact-options {
-      display: flex;
+    a img {
+      margin-bottom: 1rem;
+      transform: scale(1);
+      transition: 0.5s;
+    }
 
-      .contact-option {
-        margin: 0 1.5rem;
+    a img:hover {
+      transform: scale(1.05);
+      transition: 0.5s;
+    }
 
-        a {
-          color: white;
-        }
-      }
+    a i {
+      color: white;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      transform: scale(1);
+      transition: 0.5s;
+    }
+
+    a i:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+
+    p {
+      color: white;
+      font-weight: 600;
     }
   }
 }
@@ -167,10 +190,10 @@ hr {
   ul {
     list-style: none;
     text-align: center;
-    padding: 3rem 0;
+    padding: 0;
 
     li {
-      padding: 2rem 0;
+      padding: 1.3rem 0;
       font-family: "Lora", serif;
       font-size: 1.5rem;
 
@@ -184,8 +207,36 @@ hr {
 
 // Contact
 #contact {
-  .contact-column {
-    text-align: center;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 400px;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+  }
+
+  h4 {
+    font-family: "Lora", serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: rgb(57, 57, 57);
+    transform: scale(1);
+    transition: 0.5s;
+    margin-bottom: 0.5rem;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  p {
+    font-size: 1.1rem;
   }
 }

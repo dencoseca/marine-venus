@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  padding: 4rem 0;
+  padding: 5rem 0 0 0;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h3 {
 }
 
 hr {
-  width: 300px;
+  width: 250px;
 }
 
 .navbar {
@@ -102,13 +102,17 @@ hr {
           align-items: center;
 }
 
+#specs .specs-btn-p-element {
+  padding: 0 0 1rem 0;
+}
+
 #specs .specs-btn {
-  background: none;
+  background: #397cbb;
   border: 1px solid #f0f0f0;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: #397cbb;
+  color: white;
   padding: 0.8rem 1.5rem;
 }
 
@@ -145,40 +149,68 @@ hr {
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
 }
 
-#charter .container-fluid .contact-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+#charter .container-fluid a img {
+  margin-bottom: 1rem;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-#charter .container-fluid .contact-options .contact-option {
-  margin: 0 1.5rem;
+#charter .container-fluid a img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-#charter .container-fluid .contact-options .contact-option a {
+#charter .container-fluid a i {
   color: white;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#charter .container-fluid a i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#charter .container-fluid p {
+  color: white;
+  font-weight: 600;
 }
 
 #about ul {
   list-style: none;
   text-align: center;
-  padding: 3rem 0;
+  padding: 0;
 }
 
 #about ul li {
-  padding: 2rem 0;
+  padding: 1.3rem 0;
   font-family: "Lora", serif;
   font-size: 1.5rem;
 }
@@ -188,8 +220,51 @@ hr {
   color: #397cbb;
 }
 
-#contact .contact-column {
-  text-align: center;
-  font-size: 2rem;
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact img {
+  max-width: 400px;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+}
+
+#contact h4 {
+  font-family: "Lora", serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+#contact a {
+  color: #393939;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 0.5rem;
+}
+
+#contact a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contact p {
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=main.css.map */
