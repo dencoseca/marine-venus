@@ -240,3 +240,18 @@ hr {
     font-size: 1.1rem;
   }
 }
+
+// Footer
+#footer {
+  margin-bottom: 3rem;
+  .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: black;
+  }
+
+  .credits {
+    text-align: right;
+  }
+}

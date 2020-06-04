@@ -267,4 +267,19 @@ hr {
 #contact p {
   font-size: 1.1rem;
 }
+
+#footer {
+  margin-bottom: 3rem;
+}
+
+#footer .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: black;
+}
+
+#footer .credits {
+  text-align: right;
+}
 /*# sourceMappingURL=main.css.map */
