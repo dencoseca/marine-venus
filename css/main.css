@@ -10,6 +10,14 @@ body {
   transition: 100ms;
 }
 
+.navbar .navbar-brand.scrolled-nav-button {
+  color: #397cbb !important;
+}
+
+.navbar .navbar-toggler.scrolled-nav-button {
+  color: #397cbb !important;
+}
+
 .navbar
 .navbar-collapse
 .navbar-nav
@@ -39,8 +47,19 @@ hr {
   opacity: 0;
 }
 
-.navbar .navbar-toggler:focus {
+.navbar .navbar-brand {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.navbar .navbar-toggler {
   outline: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 
 .navbar .nav-item {

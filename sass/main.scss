@@ -11,6 +11,14 @@ body {
   transition: 100ms;
 }
 
+.navbar .navbar-brand.scrolled-nav-button {
+  color: rgb(57, 124, 187) !important;
+}
+
+.navbar .navbar-toggler.scrolled-nav-button {
+  color: rgb(57, 124, 187) !important;
+}
+
 .navbar
   .navbar-collapse
   .navbar-nav
@@ -40,8 +48,19 @@ hr {
 .navbar {
   opacity: 0;
 
-  .navbar-toggler:focus {
+  .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+  }
+
+  .navbar-toggler {
     outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
   }
 
   .nav-item {
