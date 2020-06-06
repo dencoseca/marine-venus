@@ -196,6 +196,12 @@ hr {
   text-align: right;
 }
 
+@media screen and (max-width: 992px) {
+  #specs .card .table {
+    font-size: 0.8rem;
+  }
+}
+
 #gallery .card img {
   border-radius: 2px;
 }

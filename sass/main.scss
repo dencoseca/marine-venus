@@ -185,6 +185,12 @@ hr {
         text-align: right;
       }
     }
+
+    @media screen and (max-width: 992px) {
+      .table {
+        font-size: 0.8rem;
+      }
+    }
   }
 }
 
