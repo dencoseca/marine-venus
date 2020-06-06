@@ -42,8 +42,13 @@ $(document).ready(function () {
     }
   });
 
-  // Collapse navbar on click
+  // Collapse navbar on click nav-link
   $(".navbar-nav>li>a").on("click", function () {
+    $(".navbar-collapse").collapse("hide");
+  });
+
+  // Collapse navbar on click navbar-brand
+  $(".navbar-brand").on("click", function () {
     $(".navbar-collapse").collapse("hide");
   });
 });

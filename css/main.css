@@ -39,6 +39,15 @@ h3 {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
+
 hr {
   width: 250px;
 }
@@ -55,6 +64,12 @@ hr {
   margin-left: 1rem;
 }
 
+@media screen and (max-width: 992px) {
+  .navbar .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
 .navbar .navbar-toggler {
   outline: none;
   color: white;
@@ -62,6 +77,12 @@ hr {
   font-weight: 600;
   letter-spacing: 0.2rem;
   border: none;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .navbar-toggler {
+    font-size: 1rem;
+  }
 }
 
 .navbar .nav-item {
@@ -73,6 +94,19 @@ hr {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .nav-item .nav-link {
+    text-align: right;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .nav-item {
+    padding: 0 0.8rem;
+  }
 }
 
 .hero {
@@ -103,6 +137,12 @@ hr {
 
 .hero .hero-title h1 {
   font-size: 4.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .hero-title h1 {
+    font-size: 2.5rem;
+  }
 }
 
 .hero .hero-title p {
@@ -239,6 +279,12 @@ hr {
 #about ul li a {
   text-decoration: none;
   color: #397cbb;
+}
+
+@media screen and (max-width: 992px) {
+  #about ul li {
+    font-size: 1rem;
+  }
 }
 
 #contact {
