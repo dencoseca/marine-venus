@@ -28,7 +28,7 @@ body {
 }
 
 section {
-  padding: 5rem 0 0 0;
+  padding: 80px 0 0 0;
 }
 
 h3 {
@@ -177,7 +177,7 @@ hr {
     text-align: center;
   }
   .card {
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
 
     .table {
@@ -190,6 +190,12 @@ hr {
       .table {
         font-size: 0.8rem;
       }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .card {
+      max-width: 100%;
     }
   }
 }
@@ -287,9 +293,21 @@ hr {
   justify-content: center;
 
   img {
-    max-width: 400px;
+    width: 50%;
     border-radius: 2px;
     margin-bottom: 1.5rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    img {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      width: 100%;
+    }
   }
 
   h4 {

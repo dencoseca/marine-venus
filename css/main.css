@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  padding: 5rem 0 0 0;
+  padding: 80px 0 0 0;
 }
 
 h3 {
@@ -188,7 +188,7 @@ hr {
 }
 
 #specs .card {
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -199,6 +199,12 @@ hr {
 @media screen and (max-width: 992px) {
   #specs .card .table {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #specs .card {
+    max-width: 100%;
   }
 }
 
@@ -310,9 +316,21 @@ hr {
 }
 
 #contact img {
-  max-width: 400px;
+  width: 50%;
   border-radius: 2px;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  #contact img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact img {
+    width: 100%;
+  }
 }
 
 #contact h4 {
