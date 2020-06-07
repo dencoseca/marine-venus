@@ -1,12 +1,13 @@
 $(document).ready(function () {
-  // Prevent image downloads
+  // Prevent right click on images
   $("img").mousedown(function (e) {
     e.preventDefault();
   });
 
-  $("body").on("contextmenu", function (e) {
-    return false;
-  });
+  // prevent right click on page
+  // $("body").on("contextmenu", function (e) {
+  //   return false;
+  // });
 
   // Fade in title
   $(".hero-title").delay(200).animate({ opacity: 1, top: 0 }, 800);
