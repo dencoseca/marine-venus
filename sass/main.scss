@@ -54,6 +54,12 @@ hr {
   width: 250px;
 }
 
+@media screen and (max-width: 992px) {
+  hr {
+    width: 150px;
+  }
+}
+
 // Navbar
 .navbar {
   opacity: 0;
@@ -140,7 +146,7 @@ hr {
       font-style: italic;
     }
   }
-  
+
   @media screen and (max-width: 768px) {
     .hero-title {
       h1 {
