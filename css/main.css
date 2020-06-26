@@ -127,7 +127,7 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   background-image: url("../images/marine_venus_side_view.jpg");
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
