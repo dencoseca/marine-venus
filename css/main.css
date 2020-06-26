@@ -179,6 +179,7 @@ hr {
 #specs .specs-btn {
   background: #397cbb;
   border: 1px solid #f0f0f0;
+  border-radius: 4px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
