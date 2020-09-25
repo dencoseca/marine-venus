@@ -19,11 +19,7 @@ body {
   color: rgb(57, 124, 187) !important;
 }
 
-.navbar
-  .navbar-collapse
-  .navbar-nav
-  .nav-item
-  .nav-link.main-link.scrolled-nav-link {
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.main-link.scrolled-nav-link {
   color: rgb(57, 124, 187) !important;
 }
 
@@ -353,4 +349,9 @@ hr {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+
+  a {
+    text-decoration: none;
+    color: rgb(57, 124, 187);
+  }
 }

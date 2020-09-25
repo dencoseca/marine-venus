@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 body {
   font-family: 'Open Sans', serif;
 }
@@ -18,11 +18,7 @@ body {
   color: #397cbb !important;
 }
 
-.navbar
-.navbar-collapse
-.navbar-nav
-.nav-item
-.nav-link.main-link.scrolled-nav-link {
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.main-link.scrolled-nav-link {
   color: #397cbb !important;
 }
 
@@ -121,12 +117,12 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url("../images/marine_venus_side_view.jpg");
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/marine_venus_side_view.jpg');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,11 +161,11 @@ hr {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #specs .specs-btn-p-element {
@@ -228,7 +224,7 @@ hr {
 }
 
 #charter .container-fluid {
-  background: url("../images/charter_background.jpg");
+  background: url('../images/charter_background.jpg');
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,28 +234,28 @@ hr {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
 #charter .container-fluid a img {
   margin-bottom: 1rem;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 #charter .container-fluid a img:hover {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -269,14 +265,14 @@ hr {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 #charter .container-fluid a i:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -315,14 +311,14 @@ hr {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #contact img {
@@ -352,7 +348,7 @@ hr {
 #contact a {
   color: #393939;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 0.5rem;
@@ -360,7 +356,7 @@ hr {
 
 #contact a:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -375,5 +371,10 @@ hr {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: rgb(57, 124, 187);
 }
 /*# sourceMappingURL=main.css.map */
