@@ -8,10 +8,6 @@ Marine Venus is a charter yacht based in the Caribbean. The site is intended to 
 - jQuery
 - SASS
 
-#### Live link
-
-[Marine Venus](https://marine-venus.vercel.app/)
-
 ## Status
 
 Complete.
